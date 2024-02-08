@@ -31,6 +31,10 @@ My C++ library is a wrapper that uses sqlite3pp and SQLiteCpp in order to manage
 #### SQLite command: "INSERT INTO table (column1,column2 ,..) VALUES( value1,	value2 ,...);"
 <img src="https://github.com/DangeL187/NoobSQL/blob/main/img/insert1.png" width="30%">	<img src="https://github.com/DangeL187/NoobSQL/blob/main/img/insert2.png" width="30%">
 
-#### It is not necessary first to specify the first column's name:
+#### It is not necessary to specify the first column's name:
 <img src="https://github.com/DangeL187/NoobSQL/blob/main/img/insert3.png" width="30%">	<img src="https://github.com/DangeL187/NoobSQL/blob/main/img/insert4.png" width="30%">
 
+### ADD COLUMN
+#### Use the edit field to specify a new column's name
+#### SQLite command: "ALTER TABLE table_name ADD COLUMN column_name;"
+<img src="https://github.com/DangeL187/NoobSQL/blob/main/img/add1.png" width="30%">	<img src="https://github.com/DangeL187/NoobSQL/blob/main/img/add2.png" width="30%">
