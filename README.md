@@ -1,5 +1,6 @@
 # NoobSQL
 NoobSQL is a simple Android application to manage .db files.
+Please, read the "How To Use" section.
 
 ## Dependencies
 This application is written in Kotlin and C++ using the C++17 standards.
@@ -38,3 +39,23 @@ My C++ library is a wrapper that uses sqlite3pp and SQLiteCpp in order to manage
 #### Use the edit field to specify a new column's name
 #### SQLite command: "ALTER TABLE table_name ADD COLUMN column_name;"
 <img src="https://github.com/DangeL187/NoobSQL/blob/main/img/add1.png" width="30%">	<img src="https://github.com/DangeL187/NoobSQL/blob/main/img/add2.png" width="30%">
+
+### UPDATE
+#### Modifies values that satisfy the condition
+#### Use the first edit field to specify the column names
+#### Use the second edit field to specify the values you want to update(edit)
+#### Use the third edit field to specify the column's name
+#### Use the fourth edit field to specify the value you are looking for
+#### SQLite command: "UPDATE table SET column_1 = new_value_1, column_2 = new_value_2 WHERE column_name='value';"
+<img src="https://github.com/DangeL187/NoobSQL/blob/main/img/update1.png" width="30%">	<img src="https://github.com/DangeL187/NoobSQL/blob/main/img/update2.png" width="30%">
+
+### SELECT
+#### Selects values that satisfy the condition
+#### Use the first edit field to specify the column's name
+#### Use the second edit field to specify the value
+#### SQLite command: "SELECT * FROM table WHERE column='value';"
+<img src="https://github.com/DangeL187/NoobSQL/blob/main/img/select1.png" width="30%">	<img src="https://github.com/DangeL187/NoobSQL/blob/main/img/select2.png" width="30%">
+
+#### If you do not fill in the edit fields, all rows will be selected
+#### SQLite command: "SELECT * FROM table;"
+<img src="https://github.com/DangeL187/NoobSQL/blob/main/img/select3.png" width="30%">	<img src="https://github.com/DangeL187/NoobSQL/blob/main/img/select4.png" width="30%">
