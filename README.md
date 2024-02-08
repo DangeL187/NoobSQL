@@ -59,3 +59,26 @@ My C++ library is a wrapper that uses sqlite3pp and SQLiteCpp in order to manage
 #### If you do not fill in the edit fields, all rows will be selected
 #### SQLite command: "SELECT * FROM table;"
 <img src="https://github.com/DangeL187/NoobSQL/blob/main/img/select3.png" width="30%">	<img src="https://github.com/DangeL187/NoobSQL/blob/main/img/select4.png" width="30%">
+
+### RENAME COLUMN
+#### Use the first edit field to specify the old column's name
+#### Use the second edit field to specify a new column's name
+#### SQLite command: "ALTER TABLE table_name RENAME COLUMN current_name TO new_name;"
+<img src="https://github.com/DangeL187/NoobSQL/blob/main/img/rename1.png" width="30%">	<img src="https://github.com/DangeL187/NoobSQL/blob/main/img/rename2.png" width="30%">
+
+### DELETE ROW
+#### Deletes row that satisfies the condition
+#### Use the first edit field to specify the column's name
+#### Use the second edit field to specify the value
+#### SQLite command: "DELETE FROM table WHERE column='value';"
+<img src="https://github.com/DangeL187/NoobSQL/blob/main/img/deleteRow1.png" width="30%">	<img src="https://github.com/DangeL187/NoobSQL/blob/main/img/deleteRow2.png" width="30%">
+
+### DELETE COLUMN
+#### Use the edit field to specify the column's name to delete
+#### SQLite command: "ALTER TABLE table DROP COLUMN column_name;"
+<img src="https://github.com/DangeL187/NoobSQL/blob/main/img/deleteCol1.png" width="30%">	<img src="https://github.com/DangeL187/NoobSQL/blob/main/img/deleteCol2.png" width="30%">
+
+### TABLES
+#### Use arrows to change current table
+#### Click small pink button in the upper right corner to delete current table
+<img src="https://github.com/DangeL187/NoobSQL/blob/main/img/drop2.png" width="30%">
