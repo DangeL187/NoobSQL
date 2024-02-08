@@ -20,4 +20,17 @@ My C++ library is a wrapper that uses sqlite3pp and SQLiteCpp in order to manage
 ## How To Use
 
 ### First, you need to grant the application permissions to access the storage:
-<img src="https://github.com/DangeL187/NoobSQL/blob/main/img/start.png" width="30%">	<img src="https://github.com/DangeL187/NoobSQL/blob/main/img/start.png" width="30%">	<img src="https://github.com/DangeL187/NoobSQL/blob/main/img/start.png" width="30%">
+<img src="https://github.com/DangeL187/NoobSQL/blob/main/img/allow1.png" width="30%">	<img src="https://github.com/DangeL187/NoobSQL/blob/main/img/allow2.png" width="30%">	<img src="https://github.com/DangeL187/NoobSQL/blob/main/img/allow3.png" width="30%">
+
+### To create a new table press a big "+" button:
+<img src="https://github.com/DangeL187/NoobSQL/blob/main/img/start.png" width="30%">	<img src="https://github.com/DangeL187/NoobSQL/blob/main/img/created.png" width="30%">
+
+### INSERT ROW
+#### Use the first edit field to specify the column names
+#### Use the second edit field to specify the values you want to add
+#### SQLite command: "INSERT INTO table (column1,column2 ,..) VALUES( value1,	value2 ,...);"
+<img src="https://github.com/DangeL187/NoobSQL/blob/main/img/insert1.png" width="30%">	<img src="https://github.com/DangeL187/NoobSQL/blob/main/img/insert2.png" width="30%">
+
+#### It is not necessary first to specify the first column's name:
+<img src="https://github.com/DangeL187/NoobSQL/blob/main/img/insert3.png" width="30%">	<img src="https://github.com/DangeL187/NoobSQL/blob/main/img/insert4.png" width="30%">
+
