@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/black"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="369dp"
+        android:layout_marginTop="20dp">
+
+        <TableLayout
+            android:id="@+id/tableLayout"
+            android:layout_width="match_parent"
+            android:layout_height="369dp"
+            android:layout_marginTop="19dp">
+        </TableLayout>
+    </ScrollView>
+
+    <TableLayout
+        android:id="@+id/tableColumns"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_marginTop="18dp">
+    </TableLayout>
+
+    <TextView
+        android:id="@+id/table_name"
+        android:textColor="@color/neon_purple"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:layout_gravity="center_horizontal" />
+
+    <Button
+        android:id="@+id/btnPrevTable"
+        android:backgroundTint="@color/neon_purple"
+        android:layout_width="50dp"
+        android:layout_height="40dp"
+        android:layout_gravity="start"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="393dp"
+        android:text="&lt;-"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/btnNextTable"
+        android:backgroundTint="@color/neon_purple"
+        android:layout_width="50dp"
+        android:layout_height="40dp"
+        android:layout_gravity="end"
+        android:layout_marginEnd="0dp"
+        android:layout_marginTop="393dp"
+        android:text="->"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/btnSelect"
+        android:backgroundTint="@color/neon_blue"
+        android:layout_width="324dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="430dp"
+        android:text="SELECT"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/btnInsertRow"
+        android:backgroundTint="@color/neon_blue"
+        android:layout_width="158dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginEnd="84dp"
+        android:layout_marginTop="480dp"
+        android:text="INSERT ROW"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/btnAddColumn"
+        android:backgroundTint="@color/neon_blue"
+        android:layout_width="158dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginStart="82dp"
+        android:layout_marginTop="480dp"
+        android:text="ADD COLUMN"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/btnUpdateRow"
+        android:backgroundTint="@color/neon_blue"
+        android:layout_width="158dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginEnd="84dp"
+        android:layout_marginTop="530dp"
+        android:text="UPDATE\nROW"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/btnRenameColumn"
+        android:backgroundTint="@color/neon_blue"
+        android:layout_width="158dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginStart="82dp"
+        android:layout_marginTop="530dp"
+        android:text="RENAME\nCOLUMN"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/btnDeleteRow"
+        android:backgroundTint="@color/neon_blue"
+        android:layout_width="158dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginEnd="84dp"
+        android:layout_marginTop="587dp"
+        android:text="DELETE\nROW"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/btnDeleteColumn"
+        android:backgroundTint="@color/neon_blue"
+        android:layout_width="158dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginStart="82dp"
+        android:layout_marginTop="587dp"
+        android:text="DELETE\nCOLUMN"
+        tools:ignore="HardcodedText" />
+
+    <EditText
+        android:id="@+id/inputText0"
+        android:layout_width="158dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="-120dp"
+        android:hint="NEW TABLE NAME"
+        android:inputType="text"
+        tools:ignore="HardcodedText"
+        android:importantForAutofill="no" />
+
+    <EditText
+        android:id="@+id/inputText1"
+        android:layout_width="158dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginEnd="84dp"
+        android:layout_marginTop="75dp"
+        android:hint="Enter 1"
+        android:inputType="text"
+        tools:ignore="HardcodedText"
+        android:importantForAutofill="no" />
+
+    <EditText
+        android:id="@+id/inputText2"
+        android:layout_width="158dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginStart="82dp"
+        android:layout_marginTop="75dp"
+        android:hint="Enter 2"
+        android:inputType="text"
+        tools:ignore="HardcodedText"
+        android:importantForAutofill="no" />
+
+    <EditText
+        android:id="@+id/inputText3"
+        android:layout_width="158dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginEnd="84dp"
+        android:layout_marginTop="125dp"
+        android:hint="Enter 3"
+        android:inputType="text"
+        tools:ignore="HardcodedText"
+        android:importantForAutofill="no" />
+
+    <EditText
+        android:id="@+id/inputText4"
+        android:layout_width="158dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginStart="82dp"
+        android:layout_marginTop="125dp"
+        android:hint="Enter 4"
+        android:inputType="text"
+        tools:ignore="HardcodedText"
+        android:importantForAutofill="no" />
+
+    <Button
+        android:id="@+id/btnOk"
+        android:backgroundTint="@color/neon_purple"
+        android:layout_width="158dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="180dp"
+        android:text="OK"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/btnPlus"
+        android:backgroundTint="@color/neon_purple"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="-120dp"
+        android:text="+"
+        android:textSize="40sp"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/btnConfirm"
+        android:backgroundTint="@color/neon_purple"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="-120dp"
+        android:text="DELETE TABLE"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/btnDeleteTable"
+        android:backgroundTint="@color/neon_pink"
+        android:layout_width="10dp"
+        android:layout_height="20dp"
+        android:layout_gravity="end"
+        android:layout_marginEnd="5dp"
+        tools:ignore="HardcodedText" />
+
+</FrameLayout>
