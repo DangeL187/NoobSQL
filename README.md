@@ -1,4 +1,5 @@
 # NoobSQL
+## Android version must be lower than 13!
 NoobSQL is a simple Android application to manage .db files.
 Please, read the "How To Use" section.
 
