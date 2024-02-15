@@ -7,8 +7,8 @@ Please, read the "How To Use" section.
 This application is written in Kotlin and C++ using the C++17 standards.
 
 Those libs must be installed in the "~NoobSQL/app/src/main/cpp" folder.
-* sqlite3pp
-* SQLiteCpp
+* [sqlite3pp](https://github.com/iwongu/sqlite3pp/tree/master)
+* [SQLiteCpp](https://github.com/SRombauts/SQLiteCpp)
 
 Check [CMakeLists.txt](https://github.com/DangeL187/NoobSQL/blob/main/app/src/main/cpp/CMakeLists.txt) for more information.
 
