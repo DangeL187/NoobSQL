@@ -62,12 +62,14 @@ class MainActivity: AppCompatActivity() {
     }
 
     private fun accessFile() {
+        val folderPath = "/storage/emulated/0/NoobSQL"
         val filePath = "/storage/emulated/0/NoobSQL/new.db"
         val tableName: TextView = findViewById(R.id.table_name)
 
         if (initDatabase(filePath) == -1) {
             println("Database file does not exist!")
             println("Creating new database file...")
+            val isFolderCreated = File(folderPath).mkdirs()
             val isFileCreated = File(filePath).createNewFile()
             if (isFileCreated) println("File 'new.db' successfully created!")
             initDatabase(filePath)
