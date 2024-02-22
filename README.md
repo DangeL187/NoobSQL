@@ -3,7 +3,7 @@
 NoobSQL is a simple Android application to manage .db files.
 Please, read the "How To Use" section.
 
-## Dependencies
+## Build Dependencies
 This application is written in Kotlin and C++ using the C++17 standards.
 
 Those libs must be installed in the "~NoobSQL/app/src/main/cpp" folder.
